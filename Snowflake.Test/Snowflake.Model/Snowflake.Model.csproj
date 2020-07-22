@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Snowflake.Framework.Core" Version="0.0.1" />
+    <PackageReference Include="Snowflake.Framework.Core" Version="0.0.2" />
   </ItemGroup>
 
 </Project>
