@@ -6,7 +6,12 @@ namespace Snowflake.Model.DTOs
 {
     public class GetStoreRequest : ISnowflakeData
     {
-        [ParameterViaMethod("Snowflake.Test", "Snowflake.Test.Services", "DatabaseService", "GetStoreIdsFromDatabase", false)]
+        [ParameterViaMethod(
+            assemblyName: "Snowflake.Test", 
+            namespaceName: "Snowflake.Test.Services", 
+            className: "DatabaseService",
+            methodName: "GetStoreIdsFromDatabase", 
+            cache: false)]
         public int Id { get; set; }
     }
 }
